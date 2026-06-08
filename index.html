@@ -669,9 +669,8 @@
         <div class="proj-cat">AI Agents & Event-Driven Architecture</div>
         <div class="proj-title">Agentic Commerce</div>
         <ul class="proj-bullets">
-          <li>Built an agentic shopping assistant with a locally-hosted Llama 3.1 8B agent orchestrating 3 backend services via tool-calling with two-phase confirmation gates preventing unauthorized orders.</li>
-          <li>Event-driven AI enrichment pipeline consuming Kafka ProductCreated events with 3 model calls per event and transactional outbox pattern for at-least-once delivery.</li>
-          <li>End-to-end correlation ID tracing across 4 services (Python, TypeScript) and 2 runtimes via HTTP headers, Kafka headers, AsyncLocalStorage, and ContextVar.</li>
+          <li>Built an agentic shopping assistant using locally hosted Llama 3.1 8B, orchestrating 3 backend services through tool-calling, with Postgres-backed conversation memory and a confirmation gate to prevent unauthorised order execution.</li>
+          <li>Developed an event-driven AI enrichment pipeline consuming Kafka events, running embedding, SEO, and attribute extraction workflows, and publishing enriched product data with failure isolation, idempotency, and defensive LLM output parsing.</li>
         </ul>
         <div class="proj-footer">
           <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">TypeScript</span><span class="proj-tag">Kafka</span><span class="proj-tag">Ollama</span><span class="proj-tag">LLM</span></div>
